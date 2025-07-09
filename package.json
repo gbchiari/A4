@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "build:css": "tailwindcss -i ./public/css/tailwind.css -o ./public/css/output.css --watch"
+    "build:css": "tailwindcss -i ./public/css/tailwind.css -o ./public/css/output.css --watch",
+    "tw:build": "tailwindcss -i ./public/css/tailwind.css -o ./public/css/main.css --minify"
   },
   "author": "Gustavo B Chiari",
   "license": "ISC",
