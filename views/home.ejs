@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="aqua">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Climate Solutions</title>
+  <link href="/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <%- include('partials/navbar', { page: "/" }) %>
+  <main>
+
+    <div class="hero bg-base-200 min-h-screen">
+      <div class="hero-content text-center">
+        <div class="max-w-md">
+          <h1 class="text-5xl font-bold">Welcome to <br> Climate Solutions!</h1>
+          <p class="py-6">
+            Climate solutions.<br>
+            Explore real-world projects that tackle environmental challenges and promote long-term ecological solutions.
+          </p>
+          <button class="btn btn-accent" onclick="window.location.href='/projects'">View Projects</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/scriptNav.js"></script>
+
+</body>
+
+</html>
